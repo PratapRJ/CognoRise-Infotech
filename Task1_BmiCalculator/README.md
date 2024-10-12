@@ -47,13 +47,18 @@ Welcome to the **BMI Calculator Android App**! This application provides a user-
 
 <div align="center">
 
-  <img src="./Screenshots/main_screen.jpg" alt="Main Screen" width="300px" />
-  <p><em>Main screen with input fields and gender selection.</em></p>
+  <div style="border: 2px solid black; padding: 5px; display: inline-block;">
+    <img src="./Screenshots/main_screen.jpg" alt="Main Screen" width="300px" />
+    <p><em>Main screen with input fields and gender selection.</em></p>
+  </div>
 
-  <img src="./Screenshots/result_screen.jpg" alt="Result Screen" width="300px" />
-  <p><em>Result screen displaying BMI score, category, and animated gauge.</em></p>
+  <div style="border: 2px solid black; padding: 5px; display: inline-block;">
+    <img src="./Screenshots/result_screen.jpg" alt="Result Screen" width="300px" />
+    <p><em>Result screen displaying BMI score, category, and animated gauge.</em></p>
+  </div>
 
 </div>
+
 
 
 ## Technologies Used
