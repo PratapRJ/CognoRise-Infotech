@@ -137,5 +137,5 @@ Contact
 If you have any questions or suggestions, feel free to reach out:
 
 Email: prataprj.personal@gmail.com
-GitHub: github.com/PratapRJ/
+GitHub: https://www.github.com/PratapRJ/
 LinkedIn: https://www.linkedin.com/in/prataprj/
