@@ -1,7 +1,5 @@
 # BMI Calculator Android App
 
-![BMI Calculator](screenshots/bmi_calculator_screenshot.png)
-
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
@@ -47,10 +45,10 @@ Welcome to the **BMI Calculator Android App**! This application provides a user-
 
 ## Screenshots
 
-![Main Screen](Z:/PratapRJ Data/Pratap Files/CognoRise Infotech Internship/Task1_BMICalculator/Screenshots/main_screen.png)
+![Main Screen](./Screenshots/main_screen.png)
 *Main screen with input fields and gender selection.*
 
-![Result Screen](Z:/PratapRJ Data/Pratap Files/CognoRise Infotech Internship/Task1_BMICalculator/Screenshots/result_screen.png)
+![Result Screen](./Screenshots/result_screen.png)
 *Result screen displaying BMI score, category, and animated gauge.*
 
 ## Technologies Used
