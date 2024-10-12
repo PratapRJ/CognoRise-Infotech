@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">BMI Calculator</string>
+    <string name="description_for_maleButton">Selecting Gender Male</string>
+    <string name="description_for_femaleButton">Selecting Gender Female</string>
+    <string name="description_for_heightAddButton">A button which can increase height 1 by 1</string>
+    <string name="description_for_heightRemoveButton">A button which can decrease height 1 by 1</string>
+    <string name="description_for_weightRemoveButton">A button which can decrease weight 1 by 1</string>
+    <string name="description_for_weightAddButton">A button which can increase weight 1 by 1</string>
+    <string name="description_for_ageRemoveButton">A button which can decrease age 1 by 1</string>
+    <string name="description_for_ageAddButton">A button which can increase age 1 by 1</string>
+    <string name="height">HEIGHT</string>
+    <string name="height_edit_text_value">140</string>
+    <string name="cm">CM</string>
+    <string name="weight_edit_text_value">75</string>
+    <string name="weight">WEIGHT</string>
+    <string name="age_edit_text_value">21</string>
+    <string name="age">AGE</string>
+    <string name="calculate_your_bmi">Calculate Your BMI</string>
+    <string name="age_format">%d years old</string>
+    <string name="height_format">%d cm</string>
+    <string name="weight_format">%d kg</string>
+    <string name="gender_format">%s</string>
+    <string name="underweight">Underweight</string>
+    <string name="normal">Normal</string>
+    <string name="overweight">Overweight</string>
+    <string name="obese">Obese</string>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background color (optional) -->
+    <solid android:color="@color/lightGreen"/>
+    <!-- Border/Stroke settings -->
+    <stroke
+        android:width="2dp"
+        android:color="@color/Green" /> <!-- Border color -->
+
+    <!-- Optional: Set corner radius for rounded corners -->
+    <corners android:radius="8dp" />
+
+    <!-- Optional: Add padding inside the border -->
+    <padding
+        android:left="8dp"
+        android:right="8dp"
+        android:top="8dp"
+        android:bottom="8dp" />
+</shape>

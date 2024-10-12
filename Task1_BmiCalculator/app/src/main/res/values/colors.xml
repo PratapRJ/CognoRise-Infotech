@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Green">#8BC34A</color>
+    <color name="lightGreen">#8BC34A</color>
+    <color name="grey">#1E1F22</color>
+    <color name="darBlue">#132739</color>
+    <color name="red">#AE0B1F</color>
+    <color name="underWeightColor">#C4EF93</color>
+    <color name="normalWeightColor">#8BC34A</color>
+    <color name="overWeightColor">#f5a623</color>
+    <color name="obeseColor">#d0021b</color>
+    <color name="colorPrimary">#8BC34A</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+
+
+
+
+</resources>

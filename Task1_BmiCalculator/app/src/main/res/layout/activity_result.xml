@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:navigationIcon="@drawable/back"
+        app:title="@string/app_name"
+        android:titleTextColor="@color/white"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".Result">
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/resultCL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/image_background_border"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/bmiGaugeView"
+                app:layout_constraintVertical_bias="0.0">
+
+
+                <View
+                    android:id="@+id/view4"
+                    android:layout_width="0.8dp"
+                    android:layout_height="30dp"
+                    android:background="@color/black"
+                    app:layout_constraintBottom_toBottomOf="@+id/weightTextView"
+                    app:layout_constraintEnd_toStartOf="@+id/heightTextView"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/weightTextView"
+                    app:layout_constraintTop_toTopOf="@+id/weightTextView" />
+
+                <View
+                    android:id="@+id/view3"
+                    android:layout_width="0.8dp"
+                    android:layout_height="30dp"
+                    android:background="@color/black"
+                    app:layout_constraintBottom_toBottomOf="@+id/ageTextView"
+                    app:layout_constraintEnd_toStartOf="@+id/weightTextView"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/ageTextView"
+                    app:layout_constraintTop_toTopOf="@+id/ageTextView" />
+
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="0.8dp"
+                    android:layout_height="30dp"
+                    android:background="@color/black"
+                    app:layout_constraintBottom_toBottomOf="@+id/genderTextView"
+                    app:layout_constraintEnd_toStartOf="@+id/ageTextView"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/genderTextView"
+                    app:layout_constraintTop_toTopOf="@+id/genderTextView" />
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="match_parent"
+                    android:layout_height=".5dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/black"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bmiScoreTextView" />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="7dp"
+                    android:fontFamily="@font/acme"
+                    android:letterSpacing=".08"
+                    android:text="Status"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toTopOf="@+id/bmiCategoryTextView"
+                    app:layout_constraintEnd_toEndOf="@+id/bmiCategoryTextView"
+                    app:layout_constraintStart_toStartOf="@+id/bmiCategoryTextView"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/bmiCategoryTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="20dp"
+                    android:fontFamily="@font/acme"
+                    android:text="Underweight"
+                    android:textSize="32sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/bmiScoreTextView"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.989"
+                    app:layout_constraintStart_toEndOf="@+id/bmiScoreTextView"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+                <TextView
+                    android:id="@+id/weightTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:fontFamily="@font/aleo"
+                    android:gravity="center"
+                    android:text="75 kg"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/view3"
+                    app:layout_constraintEnd_toStartOf="@+id/view4"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/view3"
+                    app:layout_constraintTop_toTopOf="@+id/view3" />
+
+                <TextView
+                    android:id="@+id/heightTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:fontFamily="@font/aleo"
+                    android:gravity="center"
+                    android:text="140 cm"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/view4"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/view4"
+                    app:layout_constraintTop_toTopOf="@+id/view4" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginBottom="7dp"
+                    android:fontFamily="@font/acme"
+                    android:letterSpacing=".08"
+                    android:text="Your BMI Score"
+                    android:textSize="18sp"
+                    app:layout_constraintBottom_toTopOf="@+id/bmiScoreTextView"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/bmiScoreTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/aleo_bold"
+                    android:text="18.0"
+                    android:textColor="@color/black"
+                    android:textSize="36sp"
+                    app:layout_constraintEnd_toEndOf="@+id/textView5"
+                    app:layout_constraintStart_toStartOf="@+id/textView5"
+                    app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+                <TextView
+                    android:id="@+id/ageTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:fontFamily="@font/aleo"
+                    android:gravity="center"
+                    android:text=" 24 years old"
+                    android:textSize="16sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/view2"
+                    app:layout_constraintEnd_toStartOf="@+id/view3"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/view2"
+                    app:layout_constraintTop_toTopOf="@+id/view2" />
+
+                <TextView
+                    android:id="@+id/genderTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/aleo"
+                    android:gravity="center"
+                    android:text="Male"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toStartOf="@+id/view2"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <com.prj.bmicalculator.BmiGaugeView
+                android:id="@+id/bmiGaugeView"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:background="@color/white"
+                android:paddingBottom="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.505"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/recalculateBmiButton"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button_background"
+                android:text="ReCalculate Your BMI"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.59"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/resultCL" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>
