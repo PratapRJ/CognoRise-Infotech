@@ -29,13 +29,8 @@ This is a simple 3x3 sliding puzzle game where users rearrange shuffled image ti
 <div align="center">
 
   <div style="border: 2px solid black; padding: 5px; display: inline-block;">
-    <img src="./Screenshots/main_screen.jpg" alt="Main Screen" width="300px" />
+    <img src="./PuzzleGameHome.jpg" alt="Main Screen" width="300px" />
     <p><em>Main screen with input fields and gender selection.</em></p>
-  </div>
-
-  <div style="border: 2px solid black; padding: 5px; display: inline-block;">
-    <img src="./Screenshots/result_screen.jpg" alt="Result Screen" width="300px" />
-    <p><em>Result screen displaying BMI score, category, and animated gauge.</em></p>
   </div>
 
 </div>
