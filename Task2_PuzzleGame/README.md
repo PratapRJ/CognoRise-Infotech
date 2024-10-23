@@ -25,7 +25,21 @@ This is a simple 3x3 sliding puzzle game where users rearrange shuffled image ti
 5. **Shuffling**: After winning, the game automatically reshuffles the puzzle pieces with a new image.
 
 ## Screenshots
-_Add screenshots of your game in this section to visually represent how the game looks._
+
+<div align="center">
+
+  <div style="border: 2px solid black; padding: 5px; display: inline-block;">
+    <img src="./Screenshots/main_screen.jpg" alt="Main Screen" width="300px" />
+    <p><em>Main screen with input fields and gender selection.</em></p>
+  </div>
+
+  <div style="border: 2px solid black; padding: 5px; display: inline-block;">
+    <img src="./Screenshots/result_screen.jpg" alt="Result Screen" width="300px" />
+    <p><em>Result screen displaying BMI score, category, and animated gauge.</em></p>
+  </div>
+
+</div>
+
 
 ## How to Run the Project
 
@@ -57,5 +71,8 @@ _Add screenshots of your game in this section to visually represent how the game
 
 ## Contact
 
-For any inquiries, feel free to reach out to me via email at prataprj.personal@gmail.com.
+For any inquiries, feel free to reach out to me via 
 
+Email: prataprj.personal@gmail.com
+GitHub: https://www.github.com/PratapRJ/
+LinkedIn: https://www.linkedin.com/in/prataprj/
