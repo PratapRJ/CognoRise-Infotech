@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Green">#8BC34A</color>
+    <color name="lightGreen">#8BC34A</color>
+    <color name="grey">#1E1F22</color>
+    <color name="darBlue">#132739</color>
+    <color name="red">#AE0B1F</color>
+    <color name="underWeightColor">#C4EF93</color>
+    <color name="normalWeightColor">#8BC34A</color>
+    <color name="overWeightColor">#f5a623</color>
+    <color name="obeseColor">#d0021b</color>
+    <color name="colorPrimary">#8BC34A</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="offWhite">#FAF9F6</color>
+    <color name="snowWhite">#FAFDFF</color>
+    <color name="ivoryWhite">#FFFFF0</color>
+    <color name="aliceBlue">#F0F8FF</color>
+    <color name="lavenderBlue">#E6E6FA</color>
+    <color name="ghostWhite">#F8F8FF</color>
+    <color name ="oilBlack">#0C0C0C</color>
+    <color name="obsidian">#0B1215</color>
+    <color name="darkSlateGrey">#0D1717</color>
+    <color name="midNightBlue">#101720</color>"
+    <color name="charcoalGrey">#171717</color>
+    <color name="deepNavyBlue">#011222</color>
+    <color name="richBlack">#020D19</color>
+    <color name="crayolaLemonYellow">#FFFF9F</color>
+</resources>
