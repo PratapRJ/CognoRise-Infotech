@@ -43,5 +43,8 @@ During this internship, I aimed to:
 2. Open the project in Android Studio.
 3. Build and run the project on an emulator or a physical device.
 
-## Contact Information
-For any inquiries, feel free to reach out to me via email at prataprj.personal@gmail.com.
+## For any inquiries, feel free to reach out to me via 
+
+- Email: prataprj.personal@gmail.com
+- GitHub: https://www.github.com/PratapRJ/
+- LinkedIn: https://www.linkedin.com/in/prataprj/
