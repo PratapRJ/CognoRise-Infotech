@@ -47,7 +47,7 @@ A simple, user-friendly To-Do application built using Android's MVVM architectur
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/PratapRJ/todo-application.git
+   https://github.com/PratapRJ/CognoRise-Infotech.git
    ```
 2. Open the project in Android Studio.
 3. Build and run the project on an emulator or Android device.
