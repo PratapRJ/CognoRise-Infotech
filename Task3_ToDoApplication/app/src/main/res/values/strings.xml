@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ToDo Application</string>
+    <string name="add_task">Add Task</string>
+    <string name="description">Description:</string>
+    <string name="delete_button">This button delete the task</string>
+    <string name="description_button">This button is used to show description of any task</string>
+    <string name="task_title">Task Title</string>
+</resources>
