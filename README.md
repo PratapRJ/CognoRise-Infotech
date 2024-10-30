@@ -39,7 +39,7 @@ During this internship, I aimed to:
 
 ## Instructions for Running the Apps
 1. Clone the repository from GitHub:  
-   `git clone https://github.com/username/cognorise_infotech_internship.git`
+   `git clone https://github.com/PratapRJ/CognoRise-Infotech.git`
 2. Open the project in Android Studio.
 3. Build and run the project on an emulator or a physical device.
 
