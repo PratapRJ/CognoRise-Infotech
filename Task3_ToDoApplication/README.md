@@ -47,7 +47,7 @@ A simple, user-friendly To-Do application built using Android's MVVM architectur
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/todo-application.git
+   git clone https://github.com/PratapRJ/todo-application.git
    ```
 2. Open the project in Android Studio.
 3. Build and run the project on an emulator or Android device.
@@ -66,13 +66,11 @@ A simple, user-friendly To-Do application built using Android's MVVM architectur
 - **RecyclerView**: Efficient list display with a custom adapter and ViewHolder.
 - **Coroutines**: For asynchronous operations in the ViewModel.
 
-## Contributing
+## For any inquiries, feel free to reach out to me via 
 
-If you'd like to contribute, please fork the repository and make changes as you'd like. Pull requests are welcome!
-
-## License
-
-This project is licensed under the MIT License.
+- Email: prataprj.personal@gmail.com
+- GitHub: https://www.github.com/PratapRJ/
+- LinkedIn: https://www.linkedin.com/in/prataprj/
 
 ---
 
