@@ -5,7 +5,6 @@ A simple, user-friendly To-Do application built using Android's MVVM architectur
 ## Features
 
 - **Add New Tasks**: Add tasks with titles and descriptions.
-- **Mark Tasks as Completed**: Toggle completion status with a checkbox.
 - **Delete Tasks**: Remove tasks with a delete button.
 - **View All Tasks**: View the list of tasks in a RecyclerView with a toggleable description view.
 - **Room Database**: Persistent storage for tasks, even if the app is closed.
@@ -18,13 +17,24 @@ A simple, user-friendly To-Do application built using Android's MVVM architectur
 - **`TaskDatabase.kt`**: Room database instance for managing the task database.
 - **`TaskRepository.kt`**: Repository layer for abstracting the data access from the rest of the app.
 - **`TaskViewModel.kt`**: ViewModel for managing UI-related data and using coroutines for database operations.
-- **`RecyclerAdapter.kt`**: RecyclerView adapter for displaying tasks in a card layout, with options to delete, update, and toggle completion status.
+- **`RecyclerAdapter.kt`**: RecyclerView adapter for displaying tasks in a card layout, with options to delete, update.
 - **`MainActivity.kt`**: Main UI activity for initializing and managing the task list, including the add task dialog.
 
 ## Screenshots
 
-![Task List](screenshot_task_list.png)
-![Add Task Dialog](screenshot_add_task_dialog.png)
+<div align="center">
+
+  <div style="border: 2px solid black; padding: 5px; display: inline-block;">
+    <img src="./Screenshots/HomeScreenScreenShot.jpg" alt="Home Screen" width="300px" />
+    <p><em>Home screen with Task RecyclerView and Task List.</em></p>
+  </div>
+
+  <div style="border: 2px solid black; padding: 5px; display: inline-block;">
+    <img src="./Screenshots/DialogBoxScreenShot.jpg" alt="Add Task Screen" width="300px" />
+    <p><em>Dialog which used to add new Task in Task List.</em></p>
+  </div>
+
+</div>
 
 ## Getting Started
 
